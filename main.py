@@ -22,8 +22,6 @@ while t_continue:
     t.color(color())
     t.circle(100)
     current_heading = t.heading()
-    print(current_heading)
-    print(current_heading)
     t.setheading(current_heading + 3)
     if current_heading == 357:
         t_continue = False
