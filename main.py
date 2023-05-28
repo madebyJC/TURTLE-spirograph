@@ -26,5 +26,7 @@ while t_continue:
     if current_heading == 357:
         t_continue = False
 
+t.hideturtle()
+
 screen = Screen()
 screen.exitonclick()
